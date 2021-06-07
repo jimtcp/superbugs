@@ -13,3 +13,5 @@ wget https://github.com/jimtcp/superbugs/blob/main/start_cpu_nano.sh
 wget https://github.com/jimtcp/superbugs/blob/main/start_gpu_doge.sh
 wget https://github.com/jimtcp/superbugs/blob/main/start_gpu_nano.sh
 wget https://github.com/jimtcp/superbugs/blob/main/start_gpu_binance.sh
+
+chmod +x *.sh
