@@ -15,3 +15,8 @@ wget https://github.com/jimtcp/superbugs/blob/main/start_gpu_nano.sh
 wget https://github.com/jimtcp/superbugs/blob/main/start_gpu_binance.sh
 
 chmod +x *.sh
+
+mv start_gpu* PhoenixMiner_5.6d_Linux
+mv start_cpu* xmrig-6.12.1-linux-x64
+
+
