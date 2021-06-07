@@ -1,1 +1,1 @@
-./PhoenixMiner -pool stratum+tcp://ethash.poolbinance.com:443 -wal superant -worker $HOSTNAME
+./PhoenixMiner -pool stratum+tcp://ethash.poolbinance.com:443 -wal superant -worker hostname
