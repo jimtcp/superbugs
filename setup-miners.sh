@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_doge.sh
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_nano.sh
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_binance.sh
 
-sed -i 's|hostname|'"$HOSTNAME"'|g' start_gpu_binance.sh.sh
+sed -i 's|hostname|'"$HOSTNAME"'|g' start_gpu_binance.sh
 
 chmod +x *.sh
 
