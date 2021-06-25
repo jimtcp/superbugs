@@ -10,6 +10,7 @@ tar -xvzf PhoenixMiner_5.6d_Linux.tar.gz
 
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_cpu_doge.sh
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_cpu_nano.sh
+wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_cpu_minexmr.sh
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_doge.sh
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_nano.sh
 wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_binance.sh
@@ -17,6 +18,7 @@ wget https://raw.githubusercontent.com/jimtcp/superbugs/main/start_gpu_shib.sh
 
 sed -i 's|hostname|'"$HOSTNAME"'|g' start_cpu_doge.sh
 sed -i 's|hostname|'"$HOSTNAME"'|g' start_cpu_nano.sh
+sed -i 's|hostname|'"$HOSTNAME"'|g' start_cpu_minexmr.sh
 sed -i 's|hostname|'"$HOSTNAME"'|g' start_gpu_doge.sh
 sed -i 's|hostname|'"$HOSTNAME"'|g' start_gpu_nano.sh
 sed -i 's|hostname|'"$HOSTNAME"'|g' start_gpu_binance.sh
